@@ -1,0 +1,105 @@
+/* CSS for App.jsx */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  body {
+    background-color: #648db7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .currencyConverter {
+    width: 100%;
+    max-width: 500px;
+    padding: 2rem;
+    margin: 1rem;
+    background-color: #f3bbbb;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .currencyConverter h1 {
+    color: #4a90e2;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .currencyDiv div {
+    margin-bottom: 1rem;
+  }
+  
+  .currencyDiv label {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .currencyDiv input,
+  .currencyDiv select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #d0d7de;
+    border-radius: 8px;
+    background-color: #f9fbfd;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .currencyDiv input:focus,
+  .currencyDiv select:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 4px rgba(74, 144, 226, 0.2);
+  }
+  
+  .currencySelector {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  
+  button {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #4a90e2;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:disabled {
+    background-color: #d0d7de;
+    cursor: not-allowed;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #357ab7;
+  }
+  
+  hr {
+    margin: 1.5rem 0;
+    border: none;
+    border-top: 1px solid #d0d7de;
+  }
+  
+  .currencyConverter h2 {
+    color: #4a90e2;
+    font-size: 1.5rem;
+  }
+  
+  p {
+    color: #d9534f;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
